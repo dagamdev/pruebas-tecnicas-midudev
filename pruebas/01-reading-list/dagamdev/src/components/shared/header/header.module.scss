@@ -33,8 +33,8 @@
     }
 
     &:hover{
-      box-shadow: 2px 2px 6px #242424, -2px -2px 6px #242424;
-      background-color: #3e4146;
+      box-shadow: 0 0 10px var(--shadow-color);
+      background-color: var(--button);
     }
   }
 }
