@@ -11,7 +11,7 @@ const ORGANIZE_OPTIONS = [
     name: 'defecto'
   },
   {
-    key: 'page',
+    key: 'pages',
     name: 'paginas'
   },
   {
