@@ -83,8 +83,8 @@
     border-radius: 4px;
 
     &:hover{
-      color: #cacaca;
-      background-color: #4d4d4d;
+      color: var(--text);
+      background-color: var(--hover);
     }
   }
 }
