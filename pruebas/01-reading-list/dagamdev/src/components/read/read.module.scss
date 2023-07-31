@@ -9,9 +9,8 @@
   z-index: 110;
   position: fixed;
   overflow: auto;
-  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, box-shadow 0.3s 0.3s;
   transform: translateX(100%);
-  box-shadow: -2px 2px 8px #202020;
   align-items: center;
   flex-direction: column;
   background-color: var(--background-start);
@@ -39,6 +38,8 @@
 
 .open{
   transform: translateX(0); 
+  transition: transform 0.4s ease, box-shadow 0.4s;
+  box-shadow: -2px 2px 8px var(--shadow-color);
 }
 
 .book{
